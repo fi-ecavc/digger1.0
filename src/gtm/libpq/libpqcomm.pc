@@ -1,0 +1,9 @@
+Name: libpqcomm
+Description: PostgreSQL libpqcomm library
+Url: http://www.postgresql.org/
+Version: 9.5.4 (Postgres-XL 9.5r1.3)
+Requires: 
+Requires.private: 
+Cflags: -I/opt/digger/include
+Libs: -L/opt/digger/lib -lpqcomm
+Libs.private:  
