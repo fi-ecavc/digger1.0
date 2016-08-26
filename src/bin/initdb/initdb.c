@@ -1233,9 +1233,9 @@ setup_config(void)
 	conflines = replace_token(conflines, "#unix_socket_directories = '/tmp'",
 							  repltok);
 
-#if DEF_PGPORT != 5432
+#if DEF_PGPORT != 7856
 	snprintf(repltok, sizeof(repltok), "#port = %d", DEF_PGPORT);
-	conflines = replace_token(conflines, "#port = 5432", repltok);
+	conflines = replace_token(conflines, "#port = 7856", repltok);
 #endif
 
 	snprintf(repltok, sizeof(repltok), "lc_messages = '%s'",

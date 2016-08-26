@@ -1481,10 +1481,10 @@ int remove_coordinatorMaster(char *name, int clean_opt)
 	In our example we need to stop COORD_2.
 
 	2. Connect to any of the coordinators except the one to be removed.
-	In our example assuming COORD_1 is running on port 5432,
+	In our example assuming COORD_1 is running on port 7856,
 	the following command would connect to COORD_1
 
-	psql postgres -p 5432
+	psql postgres -p 7856
 
 	3. Drop the coordinator to be removed.
 	For example to drop coordinator COORD_2

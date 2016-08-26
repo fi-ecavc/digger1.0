@@ -108,7 +108,7 @@ static int	port = -1;
 #ifdef PGXC
 /*
  * Additional port numbers for Coordinator 2 and Datanode 1&2
- * Ports are chosen up to the default value which is 5432.
+ * Ports are chosen up to the default value which is 7856.
  */
 static int	port_coord2 = -1;
 static int	port_dn1 = -1;

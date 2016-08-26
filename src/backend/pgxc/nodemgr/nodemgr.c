@@ -743,7 +743,7 @@ PgxcNodeCreate(CreateNodeStmt *stmt)
 	 */
 	if (node_port == 0)
 	{
-		node_port = 5432;
+		node_port = 7856;
 		elog(DEBUG1, "PGXC node %s: Applying default port value: %d",
 			 node_name, node_port);
 	}

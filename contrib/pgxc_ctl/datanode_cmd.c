@@ -1564,10 +1564,10 @@ int remove_datanodeMaster(char *name, int clean_opt)
 		 If datanode slave is also configured, we need to remove it first.
 
 	  4. Connect to any of the coordinators.
-	     In our example assuming COORD_1 is running on port 5432,
+	     In our example assuming COORD_1 is running on port 7856,
 		 the following command would connect to COORD_1
 
-		 psql postgres -p 5432
+		 psql postgres -p 7856
 
 	  5. Drop the datanode to be removed.
 	     For example to drop datanode DATA_NODE_3 use command

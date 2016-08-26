@@ -41,10 +41,10 @@
    which clients will try to connect. This can be overridden at run-time, but
    it's convenient if your clients have the right default compiled in.
    (--with-pgport=PORTNUM) */
-#define DEF_PGPORT 5432
+#define DEF_PGPORT 7856
 
 /* Define to the default TCP port number as a string constant. */
-#define DEF_PGPORT_STR "5432"
+#define DEF_PGPORT_STR "7856"
 
 /* Define to nothing if C supports flexible array members, and to 1 if it does
    not. That way, with a declaration like `struct s { int n; double
